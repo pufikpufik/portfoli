@@ -1,4 +1,5 @@
 
+  /*Header*/
 header {
     display: flex;
     align-items: center;
@@ -25,4 +26,121 @@ header {
     font-weight: 500;
     line-height: 26px;
     padding: 1px 25px;
+  }
+  .circle {
+    
+    margin-left: auto;
+  margin-right: 0;
+    background: #ffffff;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    height: 3em;
+    position: relative;
+    width: 3em;
+box-shadow: 0px 19.9619px 49.9048px rgba(108, 106, 112, 0.3);
+  }
+  .circle:hover{
+    
+      background:#dbb4e9;
+    
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+  }
+    .circle-icon {
+    fill: currentColor;
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    stroke: currentColor;
+    stroke-width: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+  /*Myself*/
+.myself {
+display: flex;
+    align-items: center;
+
+    
+
+ }
+.myself-text{
+
+}
+ h2{
+  font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 120%;
+color: #585656;
+ }
+ h1{
+  text-transform:uppercase;
+  font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 900;
+
+font-size: 50px;
+line-height: 120%;
+ }
+  p{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 32px;
+  }
+  h2,h1,p{
+    padding-left: 90px;
+  }
+
+   .my img{
+    padding-right: 15px;
+    padding-left:350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   .services{
+    display: flex;
+    background-color: #dbb4e9;
+   }
+   .services-rectangle{
+   margin-left: 90px;
+   }
+
+   .services h3{
+    color: #8643DC;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    
+   }
+   .rectangle{
+    width: 49px;
+    height: 2px;
+	  background: #8643DC;
+   }
+
+
+   .services_lt{
+   display: inline;
+   position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+        
+   }
+  .services-lt p{
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 32px;
+color: #25202F;
+text-align: right;
   }
